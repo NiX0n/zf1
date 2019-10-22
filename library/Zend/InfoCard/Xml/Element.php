@@ -43,10 +43,10 @@ abstract class Zend_InfoCard_Xml_Element
      *
      * @return string an XML representation of the object
      */
-    public function __toString()
-    {
-        return $this->asXML();
-    }
+    //public function __toString()
+    //{
+    //    return $this->asXML();
+    //}
 
     /**
      * Converts an XML Element object into a DOM object
